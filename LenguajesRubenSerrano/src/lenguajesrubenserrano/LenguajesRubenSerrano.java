@@ -16,7 +16,7 @@ public class LenguajesRubenSerrano {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Bienvenidos al curso de lenguajes");
+        System.out.println("Bienvenidos al curso de lenguajes de java");
     }
     
 }
