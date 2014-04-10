@@ -10,11 +10,10 @@ package org.campitos.capitulo7;
  *
  * @author campitos
  */
-public class Opcion {
+import java.io.Serializable;
+public class Opcion implements Serializable{
 
-    static void add(java u) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    
     private int id;
     private String titulo;
     private boolean valor;

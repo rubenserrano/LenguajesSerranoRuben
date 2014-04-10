@@ -2,9 +2,9 @@
 package org.campitos.capitulo7;
 
 import java.util.ArrayList;
+import java.io.Serializable;
 
-
-public class Pregunta {
+public class Pregunta implements Serializable{
     private int id;
     private String titulo;
     private ArrayList<Opcion> opciones;

@@ -198,12 +198,12 @@ public class UsuariosArchivaldo extends javax.swing.JFrame {
         
         
         try {
-            int ta=   GuardarUsuario.leer().size();
+            int ta=   GuardarCuestionario.leer().size();
             
            for(int i=0;i<ta;i++){
-         tabla.setValueAt(GuardarUsuario.leer().get(i).getNombre(), i, 0);
-         tabla.setValueAt(GuardarUsuario.leer().get(i).getEdad(), i, 1); 
-           tabla.setValueAt(GuardarUsuario.leer().get(i).getEmail(), i, 2);
+         tabla.setValueAt(GuardarCuestionario.leer().get(i).getNombre(), i, 0);
+         tabla.setValueAt(GuardarCuestionario.leer().get(i).getEdad(), i, 1); 
+           tabla.setValueAt(GuardarCuestionario.leer().get(i).getEmail(), i, 2);
            }
         } catch (Exception ex) {
         System.out.println(ex.getMessage());
@@ -220,7 +220,7 @@ public class UsuariosArchivaldo extends javax.swing.JFrame {
             // TODO add your handling code here:
             
             
-            GuardarUsuario.guardar(new Usuario(textoNombre.getText(),
+            GuardarCuestionario.guardar(new Usuario(textoNombre.getText(),
                     Integer.parseInt(textoEdad.getText()),
                     textoEmail.getText()));
             

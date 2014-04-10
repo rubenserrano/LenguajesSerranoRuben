@@ -18,7 +18,7 @@ public class Leer {
      */
     public static void main(String[] args) throws Exception {
         // TODO code application logic here
-     System.out.println(   GuardarUsuario.leer());
+     System.out.println(   GuardarCuestionario.leer());
     }
     
 }

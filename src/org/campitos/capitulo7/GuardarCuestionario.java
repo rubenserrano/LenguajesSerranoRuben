@@ -10,18 +10,20 @@ package org.campitos.capitulo7;
 import java.io.*;
 import java.io.File;
 import java.util.ArrayList;
-public class GuardarUsuario {
+public class GuardarCuestionario {
     
     public synchronized static ArrayList<Pregunta> leer()throws Exception{
    File file=new File("archivaldo.xxxx");    
  
     FileInputStream fis=new FileInputStream(file);
     ObjectInputStream  ois=new ObjectInputStream(fis);
-  ArrayList<Pregunta> u=(ArrayList<Pregunta>)  
+  ArrayList<Pregunta> u=(ArrayList<Pregunta>) 
           ois.readObject();
           ois.close();
   return u;
   }
+
+    
     
     public static void guardarPregunta(Pregunta.java u)throws Exception{
         ArrayList Pregunta=new ArrayList<Pregunta>();

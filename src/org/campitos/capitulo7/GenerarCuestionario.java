@@ -12,15 +12,11 @@ import javax.swing.text.html.HTMLDocument;
  *
  * @author campitos
  */
-public class Testiculo {
+public class GenerarCuestionario {
 
     public static void main(String[] args) throws Exception {
-        Pregunta u=new Pregunta(1, "Como me llamo", |)
-      GuardarUsuario.guardar(u);
-
-        for (Usuario usu : GuardarUsuario.leer()) {
-            System.out.println(usu);
+      
         }
     }
 
-}
+
