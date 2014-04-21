@@ -1,9 +1,9 @@
 
 
-package org.campitos.capitulo6;
+package Proyecto;
 
-import org.campitos.capitulo7.Opcion;
-import org.campitos.capitulo7.Pregunta;
+import Proyectotipo.Opcion;
+import Proyectotipo.Pregunta;
 import java.util.ArrayList;
 
 

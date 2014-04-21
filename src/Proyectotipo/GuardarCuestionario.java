@@ -1,4 +1,4 @@
-package org.campitos.capitulo7;
+package Proyectotipo;
 
 
 /*

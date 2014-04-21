@@ -11,6 +11,7 @@ package Practica_2;
  * @author Rubén
  */
 import java.io.Serializable;
+
 public class usuarios  implements Serializable{
     private int id;
     private String nombre;

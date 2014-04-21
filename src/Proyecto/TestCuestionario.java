@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 
-package org.campitos.capitulo6;
+package Proyecto;
 
-import org.campitos.capitulo7.Opcion;
-import org.campitos.capitulo7.Pregunta;
+import Proyectotipo.Opcion;
+import Proyectotipo.Pregunta;
 
 
 public class TestCuestionario {

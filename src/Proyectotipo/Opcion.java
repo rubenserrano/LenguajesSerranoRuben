@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package org.campitos.capitulo7;
+package Proyectotipo;
 
 /**
  *

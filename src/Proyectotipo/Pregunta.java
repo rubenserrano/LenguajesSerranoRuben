@@ -1,5 +1,5 @@
 
-package org.campitos.capitulo7;
+package Proyectotipo;
 
 import java.util.ArrayList;
 import java.io.Serializable;

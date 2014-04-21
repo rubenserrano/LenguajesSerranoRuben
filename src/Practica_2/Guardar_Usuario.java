@@ -26,11 +26,6 @@ public class Guardar_Usuario {
     public  static void guardar(usuarios u)throws Exception{
     ArrayList usuario = new ArrayList<usuarios>();
     File file= new File("Tester.xxx");
-    if(file.exists()){
-    usuario=leer();
-    
-    }
-    
     FileOutputStream fis=new FileOutputStream(file);
     ObjectOutputStream ios = new ObjectOutputStream(fis);
     usuario.add(u);
